@@ -1,0 +1,6 @@
+git add . - добавить все файлы
+git add путь/имя файла - добавить файл по пути папка/имяфайла
+git commit -m "//коментарий" - добавляем все обозначения изменения в commit
+git push origin main - отправить изменения в git hub
+git pull origin main - получить изменения из git hub
+
