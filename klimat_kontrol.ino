@@ -6,7 +6,7 @@
 #define BUTTON_PIN 2 //Определение пинов
 #define LED_HIGH_PIN 5   // синий низкая температура / влажность / свет
 #define LED_LOW_PIN 4  // красный высокая температура / влажность
-#define LIGHT_SENSOR_PIN A0 //Красный светодиод — пин 4. Загорается при высокой температуре/влажности.
+#define LIGHT_SENSOR_PIN A0 
 LiquidCrystal_I2C lcd(0x27, 20, 4); //LCD-дисплей: I2C-адрес 0x27, размер 20 символов × 4 строки.
 RTC_PCF8563 rtc; 
 Adafruit_AHTX0 aht;
